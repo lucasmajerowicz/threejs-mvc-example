@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --host 0.0.0.0 --config webpack.config.js --devtool eval --progress --hot --inline"
   },
   "author": "",

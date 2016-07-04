@@ -8,6 +8,7 @@
             margin: 0px;
             background-color: #000000;
             overflow: hidden;
+            font-family: Monospace;
         }
 
         div {
@@ -15,7 +16,7 @@
         }
 
         #panel {
-            z-index:10;
+            z-index:30;
             width: 200px;
             padding:5px;
             background-color: #000000;
@@ -24,10 +25,28 @@
             line-height: 1.2;
         }
 
+        .info {
+            position: absolute;
+            background-color: black;
+            opacity: 0.8;
+            color: white;
+            text-align: center;
+            top: 0px;
+            width: 100%;
+            z-index: 20;
+        }
+
+        .info a {
+            color: #00ffff;
+        }
+
     </style>
 </head>
 <body>
-
+<div class="info">
+    <a href="https://github.com/lucasmajerowicz/threejs-mvc-example">MVC THREEJS Example</a><br/>
+    Click on a planet to stop it - Double click on a planet to remove it.
+</div>
 
 </body>
 </html>

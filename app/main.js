@@ -11,7 +11,6 @@ import Sun from './js/model/Sun';
 const galaxy = new Galaxy('Milky Way');
 const galaxyController = new GalaxyController(galaxy);
 
-
 // add solar system to galaxy
 const apiClient = new APIClient();
 const galaxyRecord = apiClient.getRecord();
