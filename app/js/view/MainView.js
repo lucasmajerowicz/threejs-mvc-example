@@ -24,9 +24,6 @@ export default class MainView {
 
     initialize() {
         const scene = this.renderingContext.scene;
-        const stars = this.createStars(500, 60);
-        scene.add(stars);
-
         const object3D = this.galaxyViewMediator.object3D;
 
         scene.add(object3D);
@@ -46,16 +43,6 @@ export default class MainView {
 
         this.galaxyViewMediator.onFrameRenderered();
         this.renderingContext.renderer.render(this.renderingContext.scene, this.renderingContext.camera);
-    }
-
-    createStars(radius, segments) {
-        return new THREE.Mesh(
-            new THREE.SphereGeometry(radius, segments, segments),
-            new THREE.MeshBasicMaterial({
-                map:  THREE.ImageUtils.loadTexture('images/eso_dark.jpg'),
-                side: THREE.BackSide
-            })
-        );
     }
 
     onWindowResize(){
