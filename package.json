@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --host 0.0.0.0 --config webpack.config.js --devtool eval --progress --hot --inline"
+    "server": "webpack-dev-server --host 0.0.0.0 --config webpack.config.js --devtool eval --progress --hot --inline"
   },
   "author": "",
   "license": "ISC",
