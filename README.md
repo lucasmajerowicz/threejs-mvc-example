@@ -1,6 +1,6 @@
 # THREE.JS MVC Example
 ========
-Example that implements the MVC approach for creating Three.js applications
++ [Example](https://lucasmajerowicz.github.io/threejs-mvc-example/app/) that implements the MVC approach for creating Three.js applications
 
 ## Installation
 Clone repository and run
